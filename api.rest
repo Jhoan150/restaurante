@@ -1,0 +1,37 @@
+GET  http://127.0.0.1:8000/api/comidas
+
+
+###
+
+POST  http://127.0.0.1:8000/api/comidas
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name" : "torta"
+}
+
+###
+
+GET http://127.0.0.1:8000/api/comidas/1
+Content-Type: application/json
+Accept: application/json
+
+
+###
+
+PUT http://127.0.0.1:8000/api/comidas/1
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name" : "banano"
+}
+
+###
+
+DELETE http://127.0.0.1:8000/api/comidas/1
+Content-Type: application/json
+Accept: application/json
+
+
